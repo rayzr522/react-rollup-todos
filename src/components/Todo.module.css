@@ -1,0 +1,10 @@
+.todo {
+    padding: 0.5em;
+    border: 1px solid #eee;
+    border-radius: 0.25em;
+}
+
+.completed {
+    opacity: 0.5;
+    border-color: salmon;
+}

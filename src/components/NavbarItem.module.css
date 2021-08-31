@@ -1,0 +1,12 @@
+.navbarItem {
+    --active-color: rgb(255, 188, 144);
+    color: inherit;
+}
+
+.navbarItem:hover {
+    text-decoration-color: var(--active-color);
+}
+
+.active {
+    color: var(--active-color);
+}

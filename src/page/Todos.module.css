@@ -1,0 +1,46 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.controls {
+    display: flex;
+    gap: 1em;
+}
+
+.userIdFilter,
+.button {
+    padding: 0.5em;
+    border: 1px solid grey;
+    background: none;
+    border-radius: 0.25em;
+    font-size: 1rem;
+}
+
+.userIdFilter {
+    flex: 3;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.userIdFilter:focus {
+    outline: none;
+}
+.userIdFilter:active {
+    box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.35);
+}
+
+.button {
+    flex: 1;
+}
+.button:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+.button:active {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.todos {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
